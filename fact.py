@@ -5,7 +5,7 @@ print("Ingresar un numero: ")
 num = input()
 
 if num < 0:
-    print("El factorial no existe en los numeros negativos")
+    print("El factorial no existe en numeros negativos")
 elif num == 0:
     print("El factorial de 0 es 1")
 else:
