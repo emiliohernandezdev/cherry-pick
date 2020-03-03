@@ -12,11 +12,11 @@ func main(){
 	fmt.Println("set:", s)
 	fmt.Println("get:", s[2])
 
-	fmt.Println("len:", len(s))
+	fmt.Println("conteo:", len(s))
 
 	s = append(s, "d")
 	s = append(s, "e", "f")
-	fmt.Println("apd:", s)
+	fmt.Println("concatenar:", s)
 
 	
 }
